@@ -1,0 +1,23 @@
+body {
+  background-color: #f5f5f5;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 24px;
+
+  list-style: none;
+}
+
+.gallery-item {
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out;
+}
+
+.gallery-item:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
